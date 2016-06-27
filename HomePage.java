@@ -1,12 +1,11 @@
 package snippet.Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
+ 
 public class HomePage {
 
-	@FindBy(xpath="//a[text()='Book a flight']")
-	WebElement bookFlight_button;
+	public static void main(String[] args){
+		System.out.println("Changed in the new laptop")
+	}
 	
 	
 }
